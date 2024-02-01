@@ -1,0 +1,40 @@
+/* Import Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import fonts */
+@font-face {
+  font-family: "Inter var";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/fonts/Inter-roman.var.woff2") format("woff2");
+  font-named-instance: "Regular";
+}
+
+/* Define layers */
+@layer base {
+  #app {
+    min-height: 100vh;
+  }
+}
+
+@layer utilities {
+  /* Chrome, Safari, Edge, Opera */
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+}
+
+/* Gradients */
+.gradient__grey {
+  background: linear-gradient(180deg, #ffffff 0%, #f1f5f9 50%), #f1f5f9;
+}

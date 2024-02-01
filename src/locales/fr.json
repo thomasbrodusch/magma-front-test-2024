@@ -1,0 +1,1163 @@
+{
+  "generic": {
+    "accepted": "Accepté",
+    "activate": "Activer",
+    "activity": "Activité",
+    "add": "Ajouter",
+    "added": "Ajouté(s)",
+    "addTag": "Ajouter tag",
+    "allCampaigns": "Toutes les campagnes",
+    "allTags": "Tous les tags",
+    "admin": "Administrateur",
+    "adminButtons": {
+      "add": "Ajouter un administrateur",
+      "edit": "Modifier un administrateur"
+    },
+    "and": "et",
+    "answer": "Réponse",
+    "archive": "Archiver",
+    "archived": "Archivée",
+    "back": "Retour",
+    "backToDashboard": "Retour au dashboard",
+    "backToLogin": "Retour à la page de connexion",
+    "call": "Réserver un appel",
+    "campaign": "Campagne",
+    "campaigns": "Campagnes",
+    "campaignsAssigned": "Campagnes assignées",
+    "cancel": "Annuler",
+    "candidate": "Candidat",
+    "challenges": "Challenges",
+    "change": "changer",
+    "clear": "Tout supprimer",
+    "clearFilters": "Supprimer les filtres",
+    "clearSearch": "Supprimer la recherche",
+    "closePanel": "Fermer le panneau",
+    "completed": "complété",
+    "confirm": "Confirmer",
+    "continue": "Continuer",
+    "copied": "Copié !",
+    "copy": "Copier",
+    "cost": "Coût",
+    "create": "Créer",
+    "createdOn": "Créé le",
+    "createTag": "Tapez pour créer un tag",
+    "criteria": "Critère",
+    "days": "jours",
+    "deactivate": "Désactiver",
+    "deactivated": "Désactivé",
+    "decline": "Décliner",
+    "declined": "Décliné",
+    "delete": "Supprimer",
+    "design": {
+      "name": "Design",
+      "logo": "Logo de l'organisation",
+      "headerImage": "Image d'en-tête",
+      "primaryColor": "Couleur principale",
+      "secondaryColor": "Couleur secondaire"
+    },
+    "details": "Détails",
+    "disabled": "désactivé",
+    "documents": "Documents",
+    "done": "Finalisé",
+    "doneOn": "Fait le",
+    "download": "Télécharger",
+    "draft": "Brouillon",
+    "duration": "Durée",
+    "edit": "Modifier",
+    "email": "Adresse mail",
+    "enabled": "activé",
+    "english": "Anglais",
+    "export": "Exporter les données",
+    "exportCsv": "Exporter en csv",
+    "exportXlsx": "Exporter en xlsx",
+    "features": "Fonctionnalités",
+    "file": "Fichier",
+    "filter": "Filtrer",
+    "filterOptions": {
+      "availabilities": {
+        "available": "Disponible",
+        "busy": "Occupé",
+        "notAvailable": "Indisponible",
+        "surbooked": "Surbooké"
+      },
+      "status": {
+        "finished": "Terminée",
+        "inProgress": "En cours",
+        "invited": "Invitée",
+        "joined": "Rejoint",
+        "optedOut": "Désactivé",
+        "toValidate": "À valider"
+      }
+    },
+    "filters": "Filtres",
+    "firstname": "Prénom",
+    "french": "Français",
+    "fullName": "Nom complet",
+    "general": "Générale",
+    "generalInformation": "Informations générales",
+    "import": "Importer",
+    "integrations": "Intégrations",
+    "inactive": "Inactif",
+    "information": "Informations",
+    "invoices": "Factures",
+    "language": "Language",
+    "lastname": "Nom",
+    "launch": "Lancement",
+    "login": "Connexion",
+    "low": "Faible",
+    "lowCriteria": "Critère faible",
+    "manage": "Gérer",
+    "matchedOn": "Matché(e) le",
+    "medium": "Moyen",
+    "mediumCriteria": "Critère moyen",
+    "members": "Membres de l'équipe",
+    "more": "Plus",
+    "multiselect": "Sélection multiple",
+    "name": "Nom",
+    "next": "Suivant",
+    "optional": "facultatif",
+    "organization": "Organisation",
+    "phoneNumber": "Numéro de téléphone",
+    "photo": "Photo",
+    "pickTag": "Tapez pour sélectionner ou créer un tag",
+    "placeholder": {
+      "multiSelect": "Choisissez une ou plusieurs options",
+      "singleSelect": "Choisissez une option"
+    },
+    "points": "Points",
+    "practice": "Bonne pratique",
+    "profile": "Profil",
+    "profilePicture": "Photo de profil",
+    "publish": "Publier",
+    "published": {
+      "feminine": "Publiée",
+      "masculine": "Publié"
+    },
+    "publishedOn": "Publié le",
+    "qr": "Code QR",
+    "rating": "Note",
+    "referred": "a référé",
+    "rejected": "Refusé",
+    "rematched": "Rematché",
+    "remove": "Supprimer",
+    "report": "Rapport",
+    "reported": "Signalé",
+    "restart": "Recommencer",
+    "reward": "Récompense",
+    "rewards": "Récompenses",
+    "role": "Rôle",
+    "save": {
+      "default": "Enregistrer",
+      "changes": "Sauvegarder les modifications",
+      "draft": "Sauvegarder le brouillon"
+    },
+    "search": "Recherchez",
+    "searchDescription": "Votre recherche \"",
+    "selected": {
+      "plural": "sélectionnés",
+      "singular": "sélectionné"
+    },
+    "settings": "Paramètres",
+    "setup": "Configuration",
+    "shortName": "Nom court",
+    "showLess": "Moins afficher",
+    "showMore": "Tout afficher",
+    "singleSelect": "Sélection unique",
+    "status": "Statut",
+    "strong": "Fort",
+    "strongCriteria": "Critère fort",
+    "subject": "Sujet",
+    "tag": "un tag",
+    "tags": "Tags",
+    "theAdmin": "L'administrateur",
+    "title": "Titre",
+    "tonality": "Tonalité",
+    "userButtons": {
+      "add": "Ajouter un utilisateur",
+      "edit": "Modifier un utilisateur"
+    },
+    "validate": "Valider",
+    "validated": "Validé",
+    "validatedOn": "Validé le",
+    "validateMoment": "Valider le moment",
+    "viewAll": "Afficher tout",
+    "viewLess": "Afficher moins",
+    "warning": "Avertissement",
+    "website": "Site web"
+  },
+  "validation": {
+    "characters": " ne doit pas dépasser 8 caractères.",
+    "duplicate": "Cet e-mail existe déjà",
+    "duplicateTag": "Tag ne peut pas être dupliqué",
+    "email": "Veuillez saisir une adresse e-mail valide.",
+    "generic": "Ce champ est obligatoire.",
+    "invalidEmail": "Format non valide, le format de l'e-mail devrait être exemple",
+    "invalidUrl": "Format non valide, le format de l'URL devrait être https://www.exemple.com",
+    "maxCharacters": "caractères max",
+    "picture": {
+      "dimensions": "L'image est trop large, veuillez sélectionner un fichier de moins de",
+      "size": "L'image est trop grande, veuillez sélectionner un fichier de moins de"
+    },
+    "required": "est requis.",
+    "size": "est trop grande, veuillez sélectionner un fichier de moins de",
+    "url": "Format non valide, le format de l'URL devrait être https://www.exemple.com",
+    "valid": "doit être valide"
+  },
+  "baseTable": {
+    "addHelpers": {
+      "cta": "Ajouter des helpers",
+      "import": "Importer un csv",
+      "individually": "Ajouter individuellement"
+    },
+    "rows": "Lignes par page:"
+  },
+  "theSignupSidebar": {
+    "aside": {
+      "cta": "Prendre rendez-vous",
+      "description": "Prenez rendez-vous avec notre équipe partenariat pour être accompagné.",
+      "title": "Besoin d'aide ?"
+    },
+    "description": "Vous êtes à quelques étapes de lancer votre première campagne !",
+    "heading": "👋 Pour commencer, faisons connaissance",
+    "navigation": {
+      "itemFive": "Ajoutez vos ambassadeurs",
+      "itemFour": "Choisissez vos intégrations",
+      "itemOne": "Créez votre profil",
+      "itemSeven": "Planifiez votre session d’accueil",
+      "itemSix": "Définissez vos critères",
+      "itemThree": "Définissez votre cible",
+      "itemTwo": "Créez votre organisation"
+    }
+  },
+  "theSignupProgressBar": {
+    "footnote": "En soumettant ce formulaire, vous acceptez les <a  href=\"https://www.magma.app/legal-terms\" target=\"_blank\" style=\"color:#444CE7; font-weight:500;\">conditions d’utilisation</a>, et la <a  href=\"https://www.magma.app/privacy\" target=\"_blank\" style=\"color:#444CE7; font-weight:500;\">politique de confidentialité</a>."
+  },
+  "signupModal": {
+    "duplicate": {
+      "cta": "Reprendre où j’en étais",
+      "description": "Il semblerait que nous nous connaissons déjà ! Vous pouvez reprendre le formulaire où vous en étiez, ou tout recommencer.",
+      "title": "Email déjà connu"
+    }
+  },
+  "signupProfileView": {
+    "form": {
+      "avatar": {
+        "cta": "Chargez une image",
+        "description": "Fichiers *.png et *.jpg de maximum 5MB. Taille minimum recommandée de 200x200px."
+      }
+    },
+    "heading": "Créez votre profil"
+  },
+  "signupOrganizationView": {
+    "form": {
+      "organization": "Nom de votre organisation"
+    },
+    "heading": "Créez votre organisation"
+  },
+  "signupTargetView": {
+    "advice": "Conseil: Comment choisir sa cible principale ?",
+    "heading": "Quelle est votre cible principale ?",
+    "targetOptions": {
+      "convertProspects": {
+        "description": "Permettez à vos candidats de rencontrer un ambassadeur pendant le processus d'embauche pour améliorer la conversion.",
+        "label": "Vos prospects à convertir"
+      },
+      "reactivateProspects": {
+        "description": "Réactivez vos prospects froids en leur offrant des retours d’expériences de qualité grâce à vos ambassadeurs.",
+        "label": "Vos prospects à réactiver"
+      },
+      "targetAudience": {
+        "description": "Présentez votre organisation à des personnes faisant parti de votre audience cible, et dont vous n’avez pas le contact.",
+        "label": "Votre audience cible"
+      }
+    }
+  },
+  "signupIntegrationsView": {
+    "advice": {
+      "convert": "According to our data, 92% of our clients who have chosen <b>Your prospects to convert</b>, offer connection on these channels:<br/><b><ul><li> &#x2022; Through your communications </li></ul></b>",
+      "convertReactivate": "According to our data, 89% of our clients who have chosen <b>Your prospects to reactivate</b> and <b>Your prospects to convert</b>, offer connection on these channels:<br/><b><ul><li> &#x2022; Through your communications </li><li> &#x2022; Within your forms </li></ul></b>",
+      "reactivate": "According to our data, 80% of our clients who have chosen <b>Your prospects to reactivate</b>, offer connection on these channels:<br/><b><ul><li> &#x2022; Through your communications </li><li> &#x2022; Within your forms </li></ul></b>",
+      "target": "According to our data, 87% of our clients who have chosen <b>Your target audience</b>, offer connection on these channels:<br/><b><ul><li> &#x2022; On your website</li><li> &#x2022; Through your communications </li></ul></b>",
+      "targetConvert": "According to our data, 84% of our clients who have chosen <b>Your target audience</b> and <b>Your prospects to convert</b>, offer connection on these channels:<br/><b><ul><li> &#x2022; On your website</li><li> &#x2022; Through your communications </li></ul></b>",
+      "targetConvertReactivate": "According to our data, 94% of our clients who have chosen <b>Your target audience</b>, <b>Your prospects to reactivate</b> and <b>Your prospects to convert</b>, offer connection on these channels:<br/><b><ul><li> &#x2022; On your website</li><li> &#x2022; Through your communications </li><li> &#x2022; Within your forms </li><li> &#x2022; During events </li></ul></b>",
+      "targetReactivate": "According to our data, 78% of our clients who have chosen <b>Your target audience</b> and <b>Your prospects to reactivate</b>, offer connection on these channels:<br/><b><ul><li> &#x2022; On your website</li><li> &#x2022; Through your communications </li><li> &#x2022; Within your forms </li></ul></b>"
+    },
+    "heading": "Where would you like to offer matching?",
+    "integrationsOptions": {
+      "communications": {
+        "description": "Use a custom link to embed wherever you want.",
+        "label": "Through your communications"
+      },
+      "events": {
+        "description": "Add Magma to your event materials.",
+        "label": "During events"
+      },
+      "forms": {
+        "description": "Through a new field in your existing forms.",
+        "label": "Within your forms"
+      },
+      "other": {
+        "description": "Specify",
+        "error": "Please enter an answer or choose another.",
+        "label": "Other:"
+      },
+      "website": {
+        "description": "Offer the Magma experience to all visitors to your site.",
+        "label": "On your website"
+      }
+    }
+  },
+  "signupAmbassadorsView": {
+    "advice": "Ils ne seront pas invités, et <b>ne recevront aucune communication</b> avant notre session d’accueil.",
+    "cta": "Ajouter un ambassadeur",
+    "description": "Nous vous recommandons d’ajouter 3 à 5 ambassadeurs dans un premier temps.",
+    "heading": "Qui sont vos premiers ambassadeurs ?"
+  },
+  "signupCriteriaView": {
+    "advice": "Choisissez ici <b>le critère le plus important</b> pour vous. Vous pourrez toujours le modifier ou en ajouter des secondaires plus tard.",
+    "heading": "Sur quel critère souhaitez-vous effectuer la mise en relation ?",
+    "criteriaOptions": {
+      "age": {
+        "description": "Ex : 18-24 ans, 25-29 ans, 30-34 ans …",
+        "label": "Tranche d’âge"
+      },
+      "department": {
+        "description": "Ex : débutant, moyen, expert …",
+        "label": "Niveau d’expérience"
+      },
+      "education": {
+        "description": "Ex : baccalauréat, bachelor, licence, master …",
+        "label": "Niveau de formation"
+      },
+      "experience": {
+        "description": "Ex : marketing, cybersécurité, design, ressources humains …",
+        "label": "Filière / département"
+      },
+      "language": {
+        "description": "Ex : français, anglais, allemand …",
+        "label": "Langue parlée"
+      },
+      "location": {
+        "description": "Ex : lieu des bureaux, campus …",
+        "label": "Localisation"
+      },
+      "profile": {
+        "description": "Ex : reconversion, étudiant, lycéen …",
+        "label": "Type de profil"
+      },
+      "region": {
+        "description": "Ex : ville, département, pays …",
+        "label": "Région d’origine"
+      }
+    }
+  },
+  "signupOnboardingView": {
+    "confirmed": {
+      "description": "Vous avez reçu une invitation par mail et dans votre agenda avec tous les détails du rendez-vous.",
+      "details": {
+        "email": "Votre e-mail",
+        "launch": "Réunion de lancement"
+      },
+      "heading": "Votre session d’accueil est confirmée",
+      "help": {
+        "contact": "Contactez-nous",
+        "issue": "Vous avez un problème ?"
+      }
+    },
+    "cta": "Réserver un créneau",
+    "description": "Nous vous invitons maintenant à réserver un créneau pour votre session d'accueil personnelle avec Joris, notre responsable client. Durant cette session d'accueil, nous découvrirons ensemble votre tableau de bord et vous aiderons à finaliser et lancer votre première campagne.",
+    "heading": "Réservez votre session d'accueil"
+  },
+  "loginView": {
+    "cant": "Impossible de se connecter ?",
+    "checkEmail": "Vérifiez votre boîte e-mail.",
+    "checkEmailDescription": "Nous avons envoyé un lien de connexion temporaire.<br/>Veuillez vérifier votre boîte de réception à ",
+    "contact": "Contactez un administrateur",
+    "cta": "Envoyez-moi un lien",
+    "description": "Nous vous enverrons un lien par e-mail pour accéder à votre dashboard.",
+    "emailPlaceholder": "Entrez votre adresse email…",
+    "emailRequired": "Veuillez saisir une adresse e-mail pour vous connecter.",
+    "nonExistentEmail": "Adresse e-mail inconnue",
+    "nonExistentEmailDescription": "Veuillez réessayer avec un autre e-mail ou contacter un administrateur si nécessaire."
+  },
+  "expiredLinkView": {
+    "expired": "Votre lien de connexion a expiré. Veuillez revenir à la page de connexion pour demander un nouveau lien."
+  },
+  "campaignsView": {
+    "create": "Créer une nouvelle campagne",
+    "createCta": "Salut! Votre liste de campagnes est vide. Nous devrions faire quelque chose à ce sujet. Cliquez sur le bouton créer une campagne."
+  },
+  "campaignCreationView": {
+    "admins": "Administrateur(s) de la campagne",
+    "details": "Détails de la campagnes",
+    "duplicate": "Ce titre de campagne existe déjà",
+    "header": {
+      "community": {
+        "description": "Mettez votre communauté en valeur en montrant vos helpers",
+        "label": "Communauté de helpers",
+        "look": "Voici un exemple du rendu",
+        "msg": "Bonjour, je suis disponible pour un échange quand tu veux!",
+        "notEnough": {
+          "description": "Tant qu'il n'y a pas au moins 7 helpers avec une photo de profil, nous utiliserons des images générées avec de fausses personnes.",
+          "title": "Il n’y a pas assez de helpers ayant une photo de profil"
+        },
+        "random": "Vos helpers mis en valeur sont choisis au hasard",
+        "subtitle": "Rencontrez l’un de nos ambassadeurs",
+        "text": "Quelle est votre adresse e-mail ? *",
+        "title": "Des questions ?"
+      },
+      "image": {
+        "description": "Exprimez votre image de marque avec une photo ou une illustration. Vous pouvez télécharger notre template avec les règles de design ->",
+        "tooltip": "Nous vous recommandons d’utiliser une image de 1200 x 545 pixels (avoir un ratio de 2.20:1 est important)."
+      }
+    },
+    "organizationDesign": {
+      "edit": "Éditer le design de l'organisation",
+      "editDescription": "Cette campagne ne doit pas avoir le même logo, les mêmes couleurs ou un header différent? Activer cette option permet de personnaliser le design d’organisation uniquement pour cette campagne."
+    },
+    "organizationDetails": "Détails de l'organisation",
+    "organizationProfile": {
+      "edit": "Éditer le profil de l'organisation",
+      "editDescription": "Cette campagne ne doit pas avoir le même nom d’organisation ou une politique de protection des données privées particulières? Activer cette option permet de personnaliser le profil d’organisation uniquement pour cette campagne."
+    },
+    "referralForm": {
+      "description": "Permettre aux utilisateurs d’accompagner une personne qu’il connaisse directement sur cette campagne.",
+      "label": "Fonctionnalité de formulaire de parrainage"
+    },
+    "selectFeatures": "Sélectionnez les fonctionnalités",
+    "sender": "Administrateur expéditeur",
+    "sharingPage": {
+      "description": "Permettre aux utilisateurs de partager cette campagne directement sur leurs réseaux.",
+      "label": "Fonctionnalité de page de partage"
+    },
+    "shortNameDescription": "Ce nom apparaîtra comme nom d'expéditeur pour les notifications de l'utilisateur (Email et SMS).",
+    "termsUrl": "Lien vers la documentation RGPD",
+    "termsUrlDescription": "Fournissez à vos candidats votre documentation RGPD."
+  },
+  "campaignMomentsView": {
+    "add": "Ajouter un nouveau moment à la relation",
+    "details": "Détails des moments",
+    "validation": "Validation du moment"
+  },
+  "momentsPanel": {
+    "comment": "Commentaire obligatoire",
+    "create": "Créer un moment",
+    "description": "Description du moment",
+    "review": "Review du moment du helpee",
+    "title": "Titre du moment"
+  },
+  "deleteCampaignMomentModal": {
+    "sure": "Êtes-vous certain ?",
+    "cancellable": "Cette action ne peut pas être annulée. Es-tu sûr que tu veux continuer?"
+  },
+  "campaignMatchingView": {
+    "createCta": "Add un nouveau de critère pour améliorer vos matchs",
+    "edit": "Éditer les critères de matching : ",
+    "editDescription": "Éditer les critères de matching : Les critères de matching sont utilisés pour trouver le bon helper pour chaque helpee. Ils sont intégrés automatiquement à l’algorithme de matching. Vous pouvez définir jusqu’à 3 critères et définir leur importance.",
+    "setTouchpoints": "Définir les canaux de prise de contact des matchs",
+    "setTouchpointsDescription": "Les points de contact permettent aux utilisateurs de définir sur quel canal ils souhaitent échanger. Si deux helpers sont sélectionnés pour un helpee, l’algorithme privilégiera le helper avec le plus de points de contact en commun.",
+    "strength": "Priorité selon le poids : "
+  },
+  "matchingPanel": {
+    "create": "Créer un critère",
+    "criteriaOptions": "Au moins une option du critère est requise",
+    "duplicateOptions": "Cette option existe déjà pour ce critère",
+    "duplicateWeight": "Deux critères ne peuvent pas avoir le même poids dans l'algorithme de matching",
+    "emptyOption": "L'option ne peut pas être vide",
+    "labelHelpee": "Titre du critère pour le helpee",
+    "labelHelper": "Titre du critère pour le helper",
+    "limitReached": "Les critères ne peuvent pas avoir plus de 20 options ; contactez-nous ou supprimez une option pour en ajouter une nouvelle.",
+    "optionsLabel": "Options du critère - plus de 20 options ? ",
+    "optionsLabelContact": "Contactez-nous !",
+    "strengthLabel": "Poids du critère dans l'algorithme de matching",
+    "type": "Type du critère"
+  },
+  "campaignIntegrationView": {
+    "autosignup": "Inscription automatique (avancé)",
+    "bulkMatch": "Matching en masse",
+    "description": "Trouvez des intégrations pour partager votre campagne avec vos futures helpees.",
+    "descriptionBulk": "Associez en bloc les helpees dont vous avez déjà l'approbation.",
+    "descriptionEmail": "Partagez votre campagne avec vos helpees via e-mail ou dans une de vos séquence d'e-mailing.",
+    "descriptionEmbed": "Intégrez votre formulaire d'inscription à la campagne directement sur votre site Web.",
+    "descriptionId": "Utilisez cet ID pour configurer le widget ou l'inscription automatique par e-mail. Obtenir de l'aide",
+    "descriptionLink": "Partagez ce lien pour que vos helpers et helpees se connectent à votre campagne",
+    "descriptionQr": "Insérez un lien QR code vers l'ensemble de vos supports de communication.",
+    "descriptionSignup": "Proposez une inscription en un clic sur cette campagne à vos helpees.",
+    "descriptionWidget": "Ajoutez un bouton widget qui ouvre un modal avec votre formulaire d'inscription à la campagne.",
+    "id": "ID de la campagne",
+    "inviteHelpees": "Inviter des helpees par e-mail",
+    "inviteHelpers": "Inviter vos helpers",
+    "link": "Lien simple",
+    "shareCta": "Partagez votre campagne aux helpees",
+    "shareDescription": "Trouvez toutes les instructions pour partager votre campagne et encourager vos helpees à s'y joindre."
+  },
+  "campaignLaunchView": {
+    "activateCampaign": "Activez votre campagne",
+    "activateCampaignDescription": "Maintenant que vos helpers sont sélectionnées, vous pouvez lancer votre campagne. Vos helpers seront informés du lancement de la campagne.",
+    "errors": {
+      "admin": "Vous devez d'abord affecter un administrateur à la campagne.",
+      "campaign": "Veuillez d'abord créer une campagne.",
+      "criteria": "Vous devez créer au moins un critère.",
+      "description": "Votre campagne a besoin d'une description.",
+      "headerUrl": "Vous n'avez pas encore chargé d'image d'en-tête.",
+      "helpers": "Les helpers n'ont pas encore été ajoutés à la campagne.",
+      "languageTone": "Vous devez d'abord sélectionner une tonalité linguistique pour votre campagne.",
+      "logoUrl": "Vous n'avez pas encore chargé d'image de logo.",
+      "organizationName": "Vous n'avez pas encore rempli le nom de votre organisation.",
+      "organizationSubdomainName": "Vous n'avez pas encore rempli le nom de sous-domaine de votre organisation.",
+      "organizationTermsUrl": "Vous n'avez pas encore rempli URL des conditions de votre organisation.",
+      "primaryColor": "Choisissez d'abord la couleur primaire de votre organisation.",
+      "secondaryColor": "Choisissez d'abord la couleur secondaire de votre organisation.",
+      "status": "Cette campagne a déjà été lancée.",
+      "strongCriteria": "Vous devez créer au moins un critère fort.",
+      "title": "Vous n'avez pas fourni de titre pour cette campagne.",
+      "touchPoints": "Il doit y avoir au moins un point de contact sélectionné."
+    },
+    "files": {
+      "empty": "Aucun fichier n'a encore été chargé",
+      "uploaded": "Fichiers importés"
+    },
+    "HelpeeLink": "Lien Helpee vers l'inscription à la campagne",
+    "importCsvDescription": "Téléchargez votre fichier CSV, vous recevrez une notification lorsque vos helpers seront ajoutés à la campagne.",
+    "importCsvLabel": "Importer via un fichier CSV",
+    "inviteHelpers": "Inviter vos helpers",
+    "inviteHelpersDescription": "Il est maintenant temps d'inviter vos helpers à la campagne. Complétez votre liste de helpers ci-dessous avant de cliquer sur lancer la campagne."
+  },
+  "importCsvPanel": {
+    "import": {
+      "description": "Téléchargez un fichier avec la liste de vos helpers. Il peut s'agir d'un fichier .csv ou .xls. Une fois que vous avez téléchargé les fichiers, la plateforme validera les données et ajoutera vos helpers à la campagne en créant leurs comptes ou en liant ceux qui existent déjà à votre campagne.",
+      "heading": "Importer le fichier de la liste des helpers",
+      "list": "Liste des champs obligatoires :",
+      "template": "Télécharger le modèle CSV",
+      "upload": "Charger le fichier"
+    }
+  },
+  "launchCampaignModal": {
+    "activateModalDescription": "En cliquant sur activer, nous enverrons une notification à tous les helpers liés à cette campagne.",
+    "activateModalTitle": "Vous êtes sur le point d'activer votre campagne.",
+    "HelpeeLink": "Lien Helpee vers l'inscription à la campagne",
+    "HelperLink": "Accès helper à la campagne"
+  },
+  "campaignMonitoringView": {
+    "addHelpers": {
+      "cta": "Ajouter des helpers",
+      "import": "Importer un csv",
+      "individually": "Ajouter individuellement"
+    },
+    "edit": "Éditer la campagne",
+    "helpers": {
+      "empty": {
+        "description": "Ajoutez vos helpers pour lancer votre campagne.",
+        "help": "Besoin d'aide? Faites-le nous savoir à",
+        "title": "Vous n'avez pas encore de helpers"
+      }
+    }
+  },
+  "campaignHelpersView": {
+    "engaged": "Les plus engagés",
+    "hasAccompanied": "a accompagné",
+    "helpersEmptyState": {
+      "title": "Aucun helper trouvé",
+      "description": "Votre sélection de filtre ne correspond à aucun helper.",
+      "searchDescription": {
+        "partOne": "Votre recherche \"",
+        "partTwo": "\" ne correspond à aucun helper."
+      }
+    },
+    "helperStatus": {
+      "active": {
+        "practice": {
+          "partOne": "Encourager ",
+          "partTwo": " pour relever les challenges et référer quelqu'un en plus du rôle du helper."
+        },
+        "tag": "Actif"
+      },
+      "deactivated": {
+        "description": " a désactivé son statut de helper.",
+        "practice": "Vous pouvez envoyer un message pour comprendre pourquoi et peut-être trouver un accord ensemble."
+      },
+      "highlyActive": {
+        "description": " accompagne bien ses relations, a relevé des défis et a déjà référé quelqu'un.",
+        "practice": {
+          "partOne": "Féliciter et inviter ",
+          "partTwo": " pour sélectionner une récompense si suffisamment de points."
+        },
+        "tag": "Très actif"
+      },
+      "invited": {
+        "description": {
+          "partOne": "Vous avez invité ",
+          "partTwo": " à rejoindre la campagne, mais n'a pas encore accepté."
+        },
+        "practice": "Envoyer des messages en rappel pour compléter son profil de helper.",
+        "tag": "Invité"
+      },
+      "observer": {
+        "description": " est prêt à avoir des relations, mais n'a jamais encore été matché.",
+        "practice": {
+          "partOne": "Inviter ",
+          "partTwo": " pour relever les défis en attendant."
+        },
+        "tag": "Observateur"
+      },
+      "overbooked": {
+        "description": " accompagne bien ses relations, mais en a trop et peut devenir dépassé.",
+        "practice": {
+          "partOne": "Faire attention à ",
+          "partTwo": " et aider si nécessaire."
+        },
+        "tag": "Surbooké"
+      },
+      "sleeper": {
+        "description": " a été matché(e), mais n'a pas fourni l'accompagnement nécessaire, ou ne veut plus être un helper.",
+        "practice": "Envoyer un message pour demander des explications sur ce faible engagement et peut-être trouver un accord ensemble.",
+        "tag": "En veille"
+      }
+    },
+    "joinedOn": "Rejoint le",
+    "repartition": "Répartition des utilisateurs",
+    "searchHelpers": "Recherchez n'importe quelle helper…",
+    "totalUsers": "Total utilisateurs",
+    "totalUsersTooltip": "Votre nombre total d'utilisateurs, y compris les helpers rejoints et toujours invités, à ce jour"
+  },
+  "helperDetailsPanel": {
+    "availability": "Quand est sa disponibilité",
+    "completedOn": "Complété le",
+    "deactivatedOn": "Désactivé le",
+    "delete": "Supprimer de la communauté",
+    "helperStatus": {
+      "active": {
+        "description": " a déjà eu au moins 1 match, et la relation s'est bien déroulée.",
+        "practice": {
+          "partOne": "Encourager ",
+          "partTwo": " pour relever les challenges et référer quelqu'un en plus du rôle du helper."
+        },
+        "tag": "Actif"
+      },
+      "deactivated": {
+        "description": " a désactivé son statut de helper.",
+        "practice": "Vous pouvez envoyer un message pour comprendre pourquoi et peut-être trouver un accord ensemble."
+      },
+      "deactivatedAdmin": {
+        "description": {
+          "partOne": "Vous avez désactivé le statut de helper de",
+          "partTwo": "."
+        }
+      },
+      "highlyActive": {
+        "description": " accompagne bien ses relations, a relevé des défis et a déjà référé quelqu'un.",
+        "practice": {
+          "partOne": "Féliciter et inviter ",
+          "partTwo": " pour sélectionner une récompense si suffisamment de points."
+        },
+        "tag": "Très actif"
+      },
+      "invited": {
+        "description": {
+          "partOne": "Vous avez invité ",
+          "partTwo": " à rejoindre la campagne, mais n'a pas encore accepté."
+        },
+        "practice": "Envoyer des messages en rappel pour compléter son profil de helper.",
+        "tag": "Invité"
+      },
+      "observer": {
+        "description": " est prêt à avoir des relations, mais n'a jamais encore été matché.",
+        "practice": {
+          "partOne": "Inviter ",
+          "partTwo": " pour relever les défis en attendant."
+        },
+        "tag": "Observateur"
+      },
+      "overbooked": {
+        "description": " accompagne bien ses relations, mais en a trop et peut devenir dépassé.",
+        "practice": {
+          "partOne": "Faire attention à ",
+          "partTwo": " et aider si nécessaire."
+        },
+        "tag": "Surbooké"
+      },
+      "sleeper": {
+        "description": " a été matché(e), mais n'a pas fourni l'accompagnement nécessaire, ou ne veut plus être un helper.",
+        "practice": "Envoyer un message pour demander des explications sur ce faible engagement et peut-être trouver un accord ensemble.",
+        "tag": "En veille"
+      }
+    },
+    "lastMoment": "Dernier moment",
+    "matchPerWeek": "Nombre de matchs par semaine souhaité",
+    "matchPerWeekActual": "Matchs faits par semaine",
+    "modal": {
+      "deactivate": {
+        "optOutReason": {
+          "doesntWant": "Je ne veux plus être un helper",
+          "label": "Pourquoi ne voulez-vous plus être helper ?",
+          "noMoreInOrg": "Je n'appartiens plus à l'organisation",
+          "noMoreTime": "Je n'ai plus le temps",
+          "tooManyRelations": "J'ai trop de relations"
+        },
+        "reactivationIn": {
+          "label": "Quand aimeriez-vous être matché à nouveau ?",
+          "never": "Jamais",
+          "next": "Le mois prochain",
+          "partThree": "Dans 3 mois",
+          "six": "Dans 6 mois"
+        }
+      }
+    },
+    "purchased": {
+      "awaiting": "En attente de distribution",
+      "distributed": "Récompense distribuée"
+    },
+    "stopMatching": "Arrêter de matcher",
+    "validatedMoments": "Nombre de moments validés",
+    "validation": {
+      "completed": "Complété",
+      "pending": "En attente de validation"
+    }
+  },
+  "addHelpersModal": {
+    "addHelpers": {
+      "cta": "Ajouter des helpers"
+    },
+    "individual": {
+      "addOne": "Ajouter un",
+      "added": "Les helpers ont été ajoutés à votre campagne",
+      "description": "Pour ajouter des helpers individuellement, vous devez les ajouter un par un ci-dessous :",
+      "steps": {
+        "consent": "<span style=\"color:#1C1F27; font-weight:500;\">Ils doivent consentir</span> à devenir helper",
+        "copy": "Copier le lien",
+        "invite": "<span style=\"color:#1C1F27; font-weight:500;\">Invitez-les à se connecter</span> avec le lien suivant",
+        "next": "Prochaines étapes :",
+        "start": "Ensuite, <span style=\"color:#1C1F27; font-weight:500;\">ils commenceront à être matchés</span>"
+      }
+    },
+    "upload": {
+      "column": {
+        "partOne": "Quelle colonne contient",
+        "partThree": "de vos helpers ?",
+        "two": {
+          "masculine": "le"
+        }
+      },
+      "configure": "Configurez votre import",
+      "description": "Chargez un fichier pour ajouter des helpers à votre communauté",
+      "download": "Vous pouvez télécharger cet exemple et l'utiliser comme point de départ pour votre propre fichier.",
+      "error": {
+        "data": "Ce fichier contient des données qui ne sont pas supportées. N'hésitez pas à utiliser notre modèle ci-dessous.",
+        "encoding": "Il semble que votre fichier est corrompu ou qu'il y ait un problème d'encodage.",
+        "missingData": "Il manque certaines données à ce fichier. Veuillez vous assurer que tous les champs sont remplis.",
+        "size": "Ce fichier est trop volumineux. Vous pouvez charger des fichiers jusqu'à 5 MB."
+      },
+      "format": "Vous pouvez charger 1 fichier. Format supporté : CSV. Taille maximale : 5 MB.",
+      "map": "Si vous avez d'autres colonnes dans votre fichier, elles ne seront pas importées. Les helpers rempliront les informations supplémentaires lorsqu'ils se connecteront pour la première fois.",
+      "tag": "Vous pouvez ajouter des tags aux helpers importés",
+      "template": "Modèle de fichier"
+    }
+  },
+  "removeHelpersModal": {
+    "archiveModal": {
+      "alert": {
+        "description": "Il a été supprimé de votre communauté",
+        "singular": "Helper archivé",
+        "plural": "Helpers archivés"
+      },
+      "description": {
+        "helper": {
+          "partOne": "En étant archivé(e),",
+          "partTwo": "n'aura plus accès à sa plateforme Magma et <span style=\"color:#1C1F27; font-weight:500;\">sera retiré de votre communauté.</span>"
+        },
+        "singular": "En archivant ce helper, il n'aura plus accès à sa plateforme Magma et <span style=\"color:#1C1F27; font-weight:500;\">sera retiré de votre communauté.</span>",
+        "plural": "En archivant ces helpers, ils n'auront plus accès à leur plateforme Magma et <span style=\"color:#1C1F27; font-weight:500;\">seront retirés de votre communauté.</span>"
+      },
+      "title": {
+        "singular": "Archiver le helper",
+        "plural": "Archiver les helpers"
+      }
+    },
+    "deactivationModal": {
+      "alert": {
+        "description": "Il ne sera plus matché.",
+        "plural": "Helpers désactivés",
+        "singular": "Helper désactivé"
+      },
+      "description": {
+        "helper": {
+          "partOne": "En étant déactivé(e)",
+          "partThree": "pourra toujours accéder à la plateforme Magma pour consulter l'historique de ses relations.",
+          "partTwo": "ne sera plus matché(e).</span>"
+        },
+        "plural": "En désactivant ces helpers, <b>ils ne seront plus matchés</b>. Ils pourront toujours accéder à la plateforme Magma pour consulter l'historique de leurs relations.",
+        "singular": "En désactivant ce helper, <b>il ne sera plus matché</b>. Il pourra toujours accéder à la plateforme Magma pour consulter l'historique de ses relations."
+      },
+      "rematch": {
+        "label": "Souhaitez-vous rematcher automatiquement ces relations ? <span style=\"color:#444CE7;\">*</span>",
+        "no": "Non, archivez-les",
+        "yes": "Oui, rematchez-les"
+      },
+      "title": {
+        "plural": "Désactiver les helpers",
+        "singular": "Désactiver le helper"
+      },
+      "unstarted": {
+        "description": {
+          "singular": "Il semble que ce helper ait des relations non entamées.",
+          "plural": "Il semble que certains de ces helpers aient des relations non entamées."
+        },
+        "title": {
+          "singular": "Le helper a des relations non entamées",
+          "plural": "Les helpers ont des relations non entamées"
+        }
+      }
+    }
+  },
+  "campaignRelationsView": {
+    "currentMoment": "Moment actuel",
+    "lastMonth": "Mois dernier",
+    "leftComment": " a laissé un commentaire. Cliquez pour le voir.",
+    "noRelationsDescription": "Dès qu'il y a des matchs entre vos helpers et helpees, ils seront affichés ici",
+    "noRelationsHeading": "Vous n'avez pas encore de relations",
+    "relationsEmptyState": {
+      "description": "Votre sélection de filtre ne correspond à aucune relation.",
+      "searchDescription": {
+        "partTwo": "\" ne correspond à aucune relation."
+      },
+      "title": "Aucune relation trouvée"
+    },
+    "searchRelations": "Recherchez n'importe quelle relation…"
+  },
+  "relationDetailsPanel": {
+    "cta": {
+      "accepted": {
+        "description": {
+          "partOne": "Cela signifie que",
+          "partTwo": "rejoint"
+        }
+      },
+      "close": "Clôturer la relation",
+      "rejected": {
+        "description": "n'est plus en processus de recrutement"
+      }
+    },
+    "inactive": {
+      "partOne": "Cette relation est inactive, car depuis leur match le",
+      "partTwo": ", il semblerait que",
+      "partThree": "n'aient pas été en contact."
+    },
+    "lastActivity": "Dernière Activité",
+    "report": {
+      "helpee": {
+        "reason": {
+          "label": "Raison du signalement",
+          "notInterested": "Je ne suis plus intéressé(e)"
+        },
+        "rematch": {
+          "label": "Aimeriez-vous rencontrer quelqu'un d'autre?"
+        }
+      },
+      "new": "Nouvelle relation",
+      "rematch": {
+        "label": "En attente du rematch",
+        "yes": "Oui, je veux rencontrer quelqu'un d'autre"
+      },
+      "screenshot": "Capture d'écran",
+      "title": "a signalé un problème sur cette relation"
+    },
+    "reportForm": {
+      "ghosting": {
+        "message": {
+          "label": "Dites-nous ce qu'il s'est passé"
+        },
+        "screenshot": {
+          "label": "Souhaitez-vous ajouter une capture d'écran ?"
+        },
+        "when": {
+          "label": "Quand avez-vous contacté"
+        }
+      }
+    },
+    "reportReasons": {
+      "ghosting": {
+        "title": "ne me répond pas"
+      },
+      "other": {
+        "title": "Autre"
+      }
+    }
+  },
+  "baseMomentBlock": {
+    "adminValidation": "Une validation de l'administrateur est nécessaire sur ce moment.",
+    "has": "a",
+    "moment": "le moment",
+    "pending": "n'a pas encore débloqué ce moment",
+    "sendEmail": "Envoyer un e-mail à",
+    "validation": {
+      "ignored": "Vous avez décidé d'ignorer ce moment.",
+      "isIn": "est en",
+      "validatedByAdmin": {
+        "accepted": "En acceptant",
+        "description": ", vous avez validé ce moment.",
+        "rejected": "En refusant"
+      }
+    },
+    "waitingValidation": "en attente de validation"
+  },
+  "validateMomentModal": {
+    "momentValidation": {
+      "partOne": "En validant le moment, vous assurez qu'il a été réalisé par",
+      "partThree": "<br/><br/>Vous <span style=\"color:#1C1F27; font-weight:500;\">débloquerez",
+      "partFour": "points</span> pour",
+      "partFive": "ce qui correspond aux gains du moment."
+    }
+  },
+  "admissionHelpeesModal": {
+    "accepted": {
+      "description": "<span style=\"color:#1C1F27; font-weight:500;\">Félicitations pour votre recrutement !</span> Nous sommes heureux de voir que cette relation a abouti.",
+      "title": "est accepté(e)"
+    },
+    "rejected": {
+      "description": "Nous sommes désolés de voir que cette relation n'a pas abouti.",
+      "title": "est refusé(e)"
+    },
+    "validation": {
+      "description": {
+        "partOne": "Vous pouvez sélectionner les moments que vous souhaitez valider pour récompenser",
+        "partTwo": "de son aide. Les autres seront ignorés."
+      },
+      "title": "Aimeriez-vous valider quelques moments dans la relation ?",
+      "validated": "Déjà validé"
+    }
+  },
+  "campaignReportView": {
+    "attention": "Restez attentif",
+    "columns": {
+      "lowNbrHelpees": "Nombre de helpees sur le critère faible",
+      "lowNbrHelpers": "Nombre de helpers sur le critère faible",
+      "lowStatus": "Status sur le critère faible",
+      "mediumNbrHelpees": "Nombre de helpees sur le critère moyen",
+      "mediumNbrHelpers": "Nombre de helpers sur le critère moyen",
+      "mediumStatus": "Statut sur le critère moyen",
+      "strongNbrHelpees": "Nombre de helpees sur le critère fort",
+      "strongNbrHelpers": "Nombre de helpers sur le critère fort",
+      "strongRatio": "Ratio sur le critère fort",
+      "strongStatus": "Statut sur le critère fort"
+    },
+    "criteriaStatus": "Statut du critère",
+    "enoughData": "Vous pourrez suivre la distribution de vos helpers par critère lorsque vous aurez suffisamment de helpers qui auront rejoint la campagne.",
+    "good": "Bon ratio",
+    "need": "Besoin de helpers",
+    "noData": "Vous n'avez pas encore assez de données",
+    "ratio": "Le ratio correspond au nombre moyen de helpees dont 1 devra gérer.",
+    "reportDescription": "Suivez la distribution de vos helpers dans vos critères de correspondance.",
+    "seeHelpers": "Voir les helpers",
+    "value": "Valeur des répondants"
+  },
+  "manageChallengesRewardsModal": {
+    "deactivate": "Désactiver le challenge",
+    "deactivationDescription": "Si vous le désactivez, il ne sera plus accessible à vos helpers.",
+    "declineChallenge": "Décliner le challenge",
+    "declineChallengeDescription": {
+      "partOne": "En déclinant ce challenge, vous indiquez à ",
+      "partThree": " ne recevra aucun point.",
+      "partTwo": " que le challenge n'a pas été correctement accompli. "
+    },
+    "distribution": {
+      "partOne": "Vous confirmez que ",
+      "partTwo": " a bien reçu la récompense achetée."
+    },
+    "purchased": {
+      "distributed": "Récompense distribuée"
+    },
+    "validateChallenge": "Valider le challenge",
+    "validateChallengeDescription": {
+      "partOne": "En validant le challenge, ",
+      "partTwo": " recevra "
+    }
+  },
+  "challengesActivityView": {
+    "helpersEmptyState": {
+      "description": "Votre sélection de filtre ne correspond à aucun challenge.",
+      "searchDescription": {
+        "partTwo": "\" ne correspond à aucun challenge."
+      },
+      "title": "Aucun challenge trouvé"
+    },
+    "search": "Recherchez n'importe quel challenge ou helper…"
+  },
+  "challengesSetupView": {
+    "emptyState": {
+      "description": "Créez votre premier challenge et faites passer au niveau supérieur l'expérience de vos helpers",
+      "title": "Vous n'avez pas encore de challenges"
+    },
+    "new": "Nouveau challenge"
+  },
+  "challengeCreationView": {
+    "adminValidation": "Validation de l'administrateur",
+    "alert": {
+      "description": "Vos helpers peuvent maintenant voir et accomplir ce challenge.",
+      "title": "Challenge publié"
+    },
+    "campaign": "une campagne",
+    "create": "Créer un challenge",
+    "deactivate": "Désactiver le challenge",
+    "description": {
+      "placeholder": "Plus c'est clair et court, mieux c'est."
+    },
+    "filter": {
+      "description": "Choisissez les helpers qui auront accès à ce challenge",
+      "title": "Propriétés du filtre",
+      "total": "Nombre total de destinataires :"
+    },
+    "namePlaceholder": "Nom ou titre",
+    "new": "Nouveau challenge",
+    "pictureDescription": "Chargez une image pour illustrer votre challenge.",
+    "points": {
+      "description": "Nombre de points attribués pour la réussite du challenge."
+    },
+    "redirection": "Redirection CTA",
+    "redirectionDescription": "Le lien / e-mail pour compléter le challenge",
+    "title": {
+      "duplicate": "Ce titre de challenge existe déjà"
+    },
+    "validationDescription": "Vous devrez valider chaque challenge complété"
+  },
+  "rewardsActivityView": {
+    "boughtOn": "Acheté le",
+    "distribute": "Distribuer",
+    "distributed": "Distribué",
+    "distributedOn": "Distribué le",
+    "helpersEmptyState": {
+      "searchDescription": {
+        "partTwo": "\" ne correspond à aucune récompense."
+      },
+      "description": "Votre sélection de filtre ne correspond à aucune récompense.",
+      "title": "Aucune récompense trouvée"
+    },
+    "search": "Recherchez n'importe quel récompense ou helper…",
+    "toDistribute": "À distribuer"
+  },
+  "rewardsSetupView": {
+    "emptyState": {
+      "description": "Créez votre première récompense et faites passer au niveau supérieur l'expérience de vos helpers",
+      "title": "Vous n'avez pas encore de récompenses"
+    },
+    "new": "Nouvelle récompense"
+  },
+  "rewardCreationView": {
+    "alert": {
+      "description": "Vos helpers peuvent maintenant voir et acheter cette récompense.",
+      "title": "Récompense publiée"
+    },
+    "campaign": "une campagne",
+    "create": "Créer une récompense",
+    "deactivate": "Désactiver la récompense",
+    "description": {
+      "placeholder": "Plus c'est clair et court, mieux c'est."
+    },
+    "filter": {
+      "description": "Choisissez les helpers qui auront accès à ce challenge",
+      "title": "Propriétés du filtre",
+      "total": "Nombre total de destinataires :"
+    },
+    "namePlaceholder": "Nom ou titre",
+    "new": "Nouveau challenge",
+    "pictureDescription": "Chargez une image pour illustrer votre récompense.",
+    "points": {
+      "description": "Nombre de points que la récompense coûte"
+    },
+    "retrieval": "Consignes de récupération",
+    "retrievalPlaceholder": "Comment vos helpers peuvent récupérer la récompense?",
+    "title": {
+      "duplicate": "Ce titre de récompense existe déjà"
+    }
+  },
+  "theNavigation": {
+    "administrative": "Information administrative"
+  },
+  "settingsInformationView": {
+    "shortNameDescription": "Ce nom apparaîtra comme nom d'expéditeur pour les notifications de l'utilisateur (Email et SMS).",
+    "subdomainName": "Nom de sous-domaine",
+    "subdomainNameDescription": "Votre lien de sous-domaine personnalisé ne peut pas être modifié une fois que vous l'avez fourni, contactez votre responsable de compte pour le modifier.",
+    "termsUrl": "Lien vers la documentation RGPD",
+    "termsUrlDescription": "Fournissez à vos candidats votre documentation RGPD."
+  },
+  "settingsLanguageView": {
+    "description": "Activer cette langue pour qu'elle soit disponible pour les utilisateurs"
+  },
+  "settingsIntegrationView": {
+    "api": "Clé API",
+    "apiDescription": "Vous souhaitez faire des actions automatiquement sur Magma? Nous pouvons vous fournir une clé d’API ainsi qu’une documentation.",
+    "crm": "Intégration CRM",
+    "crmDescription": "L’interconnection CRM permet de gagner du temps. La plateforme enverra les données directement dans votre CRM et pourra automatiquement mettre à jour les relations.",
+    "url": "URL / domaine personnalisé",
+    "urlDescription": "Besoin d’une URL spécifique vers laquelle vous pouvez diriger vos helpers ou helpees? Cette option demande des connaissances en gestion de DNS."
+  },
+  "settingsFeaturesView": {
+    "challengesDescription": "Animer la communauté d’utilisateurs grâce à des challenges ponctuels et leur permettre de gagner des points supplémentaires.",
+    "description": "Segmenter ses utilisateurs au sein de Magma grâce à la fonctionnalité de Tags.",
+    "pointsDescription": "Afficher les points que les helpers peuvent collecter en s’impliquant dans les campagnes et la communauté. Fonctionnalité nécessaire pour les récompenses.",
+    "rewardsDescription": "Permettre aux utilisateurs de sélectionner leurs récompenses directement depuis la plateforme."
+  },
+  "settingsFeaturesTagsView": {
+    "filter": "Filtrer par campagne",
+    "search": "Rechercher un tag…",
+    "subtitle": "Utilisez des tags pour vous aider à organiser et à filtrer les helpers dans vos campagnes."
+  },
+  "deleteTagModal": {
+    "deactivated": {
+      "plural": {
+        "masculine": "Ils seront désactivés.",
+        "feminine": "Elles seront désactivées."
+      },
+      "singular": {
+        "feminine": "Celle-ci sera désactivée.",
+        "masculine": "Celui-ci sera désactivé."
+      }
+    },
+    "helpers": "Le tag sera retiré de",
+    "rewards": {
+      "partOne": {
+        "singular": "Il y a",
+        "plural": "Il y a"
+      },
+      "partTwo": {
+        "singular": {
+          "masculine": "filtré par ce tag :",
+          "feminine": "filtrée par ce tag :"
+        },
+        "plural": {
+          "feminine": "filtrées par ce tag :",
+          "masculine": "filtrés par ce tag :"
+        }
+      }
+    },
+    "title": {
+      "partOne": "Êtes-vous sûr de vouloir supprimer le tag \"",
+      "partTwo": "\" ?"
+    },
+    "undone": "Cette action ne peut pas être annulée."
+  },
+  "settingsAdministrativeView": {
+    "accountingEmail": "Email de comptabilité",
+    "address": "Adresse",
+    "billing": {
+      "firstname": "Prénom de facturation",
+      "lastname": "Nom de facturation"
+    },
+    "city": "Ville",
+    "companyName": "Nom de la compagnie",
+    "companyNumber": "SIREN / Numéro de la compagnie",
+    "countryCode": "Pays / Région",
+    "information": "Information administrative",
+    "vatNumber": "Numéro de TVA",
+    "zipCode": "Code postal / Zip code"
+  },
+  "errorView": {
+    "notFound": "Cette page n'existe pas.",
+    "sorry": "Désolé, nous n'avons pas pu trouver la page que vous recherchez.",
+    "home": "Retourner à la page d'accueil",
+    "error": "Erreur ",
+    "oops": "Oops !",
+    "wrong": "Une erreur s'est produite. Réessayez.",
+    "campaignNotFound": "Cette campaign n'existe pas.",
+    "sorryCampaign": "Désolé, nous n'avons pas pu trouver la campagne que vous recherchez."
+  }
+}
