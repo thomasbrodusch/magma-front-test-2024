@@ -217,16 +217,42 @@
       "description": "Book an appointment with our partnership team to get support.",
       "title": "Need help?"
     },
-    "description": "You are just a few steps away from launching your first campaign!",
-    "heading": "👋 To start, let's get to know each other",
     "navigation": {
-      "itemOne": "Create your profile",
-      "itemTwo": "Create your organization",
-      "itemThree": "Define your target",
-      "itemFour": "Choose your integrations",
-      "itemFive": "Add your ambassadors",
-      "itemSix": "Define your criteria",
-      "itemSeven": "Plan your welcome session"
+      "itemOne": {
+        "title": "Create your profile",
+        "heading": "👋 To start, let's get to know each other",
+        "description": "You are just a few steps away from launching your first campaign!"
+      },
+      "itemTwo": {
+        "title": "Create your organization",
+        "heading": "✨ Welcome to Magma",
+        "description": "Personalize the experience of your ambassadors and candidates by creating your own organisation.."
+      },
+      "itemThree": {  
+        "title": "Define your target",
+        "heading": "🥳 Congratulations, your organisation is ready",
+        "description": "Now define your priority target."
+      },
+      "itemFour": {
+        "title": "Choose your integrations",
+        "heading": "🎯 You want to reach your target audience",
+        "description": "Choose the channels you want to use to reach your target."
+      },
+      "itemFive": {
+        "title": "Add your ambassadors",
+        "heading": "💪 You're almost there",
+        "description": "Add your ambassadors now, and they'll be the first players in your campaign."
+      },
+      "itemSix": {
+        "title": "Define your criteria",
+        "heading": "🎉 Last step before the welcome session",
+        "description": "Define the main criteria to be used for matching."
+      },
+      "itemSeven": {
+        "title": "Plan your welcome session",
+        "heading": "✅ Congratulations, your platform awaits you",
+        "description": "All you have to do is choose a time slot for your welcome session on Magma.."
+      }
     }
   },
   "theSignupProgressBar": {

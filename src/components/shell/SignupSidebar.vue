@@ -21,11 +21,11 @@ const { signupSteps } = useSignupRouting();
     />
 
     <h1 class="mb-2 text-mgm-txt-xl font-medium text-foreground-emphasis">
-      {{ $t("theSignupSidebar.heading") }}
+      {{ $t(`${signupSteps.find((step) => step.status === "current")?.name}.heading`) }}
     </h1>
 
     <p class="mb-6 text-mgm-txt-sm font-normal text-foreground-default">
-      {{ $t("theSignupSidebar.description") }}
+      {{ $t(`${signupSteps.find((step) => step.status === "current")?.name}.description`) }}
     </p>
 
     <ol class="hide-nav pb-40">
@@ -71,7 +71,7 @@ const { signupSteps } = useSignupRouting();
             />
           </div>
 
-          {{ $t(`${signupStep.name}`) }}
+          {{ $t(`${signupStep.name}.title`) }}
         </component>
       </li>
     </ol>

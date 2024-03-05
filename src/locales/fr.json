@@ -217,16 +217,42 @@
       "description": "Prenez rendez-vous avec notre équipe partenariat pour être accompagné.",
       "title": "Besoin d'aide ?"
     },
-    "description": "Vous êtes à quelques étapes de lancer votre première campagne !",
-    "heading": "👋 Pour commencer, faisons connaissance",
     "navigation": {
-      "itemFive": "Ajoutez vos ambassadeurs",
-      "itemFour": "Choisissez vos intégrations",
-      "itemOne": "Créez votre profil",
-      "itemSeven": "Planifiez votre session d’accueil",
-      "itemSix": "Définissez vos critères",
-      "itemThree": "Définissez votre cible",
-      "itemTwo": "Créez votre organisation"
+      "itemOne": {
+        "title": "Créez votre profil",
+        "heading": "👋 Pour commencer, faisons connaissance",
+        "description": "Vous êtes à quelques étapes de lancer votre première campagne !"
+      },
+      "itemTwo": {
+        "title": "Créez votre organisation",
+        "heading": "✨ Bienvenue sur Magma",
+        "description": "Personnalisez l’expérience de vos ambassadeurs et candidats en créant votre organisation."
+      },
+      "itemThree": {  
+        "title": "Définissez votre cible",
+        "heading": "🥳 Félicitations, votre organisation est prête ",
+        "description": "Définissez maintenant votre cible prioritaire."
+      },
+      "itemFour": {
+        "title": "Choisissez vos intégrations",
+        "heading": "🎯 Vous souhaitez atteindre votre audience cible",
+        "description": "Choisissez quels sont les canaux sur lesquels atteindre votre cible."
+      },
+      "itemFive": {
+        "title": "Ajoutez vos ambassadeurs",
+        "heading": "💪 Vous y êtes presque",
+        "description": "Ajoutez maintenant vos ambassadeurs, ils seront les premiers acteurs de votre campagne."
+      },
+      "itemSix": {
+        "title": "Définissez vos critères",
+        "heading": "🎉 Dernière étape avant la session d’accueil",
+        "description": "Définissez le critère principal sur lequel effectuer la mise en relation."
+      },
+      "itemSeven": {
+        "title": "Réservez votre session d’accueil",
+        "heading": "✅ Félicitations, votre plateforme vous attend",
+        "description": "Il ne vous reste qu’à choisir un créneau pour votre session d’accueil sur Magma."
+      }
     }
   },
   "theSignupProgressBar": {
