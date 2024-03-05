@@ -1,10 +1,12 @@
 <script setup lang="ts">
-
 // Components
 import { BaseIcon } from "magma-design-system-test";
 
 // Composables
-import { useSignupRouting } from "@/composables/useSignupRouting";
+import {
+  SignupStepState,
+  useSignupRouting
+} from "@/composables/useSignupRouting";
 const { signupSteps } = useSignupRouting();
 </script>
 
@@ -34,17 +36,21 @@ const { signupSteps } = useSignupRouting();
         :key="signupStepIndex"
       >
         <component
-          :is="signupStep.status === 'complete' ? 'router-link' : 'div'"
+          :is="
+            signupStep.status === SignupStepState.Complete
+              ? 'router-link'
+              : 'div'
+          "
           :to="{ name: signupStep.page }"
           :class="[
             'mb-4 flex items-center text-mgm-txt-sm ',
             {
               'font-normal text-foreground-success-default':
-                signupStep.status === 'complete',
+                signupStep.status === SignupStepState.Complete,
               'font-medium text-foreground-brand-default':
-                signupStep.status === 'current',
+                signupStep.status === SignupStepState.Current,
               'font-normal text-foreground-default':
-                signupStep.status === 'upcoming'
+                signupStep.status === SignupStepState.Upcoming
             }
           ]"
           exact-active-class="!text-foreground-brand-default !font-medium"
@@ -53,19 +59,21 @@ const { signupSteps } = useSignupRouting();
             :class="[
               'mr-2 flex h-6 w-6 items-center justify-center rounded-full border text-mgm-txt-xs font-semibold',
               {
-                'border-border-default': signupStep.status === 'upcoming',
-                'border-border-brand-emphasis': signupStep.status === 'current',
+                'border-border-default':
+                  signupStep.status === SignupStepState.Upcoming,
+                'border-border-brand-emphasis':
+                  signupStep.status === SignupStepState.Current,
                 'border-border-success-emphasis bg-foreground-success-default':
-                  signupStep.status === 'complete'
+                  signupStep.status === SignupStepState.Complete
               }
             ]"
           >
-            <span v-if="signupStep.status === 'current'">
+            <span v-if="signupStep.status === SignupStepState.Current">
               {{ signupStepIndex + 1 }}
             </span>
 
             <BaseIcon
-              v-else-if="signupStep.status === 'complete'"
+              v-else-if="signupStep.status === SignupStepState.Complete"
               icon="check"
               color="#FFFFFF"
             />

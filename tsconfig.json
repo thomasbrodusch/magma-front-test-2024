@@ -10,5 +10,10 @@
     "lib": ["es2017", "dom", "dom.iterable", "ES2021.String"],
     "preserveValueImports": false,
     "esModuleInterop": true
-  }
+  },
+  "references": [
+    {
+      "path": "./tsconfig.vitest.json"
+    }
+  ]
 }

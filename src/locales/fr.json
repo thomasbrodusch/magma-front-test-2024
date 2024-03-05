@@ -102,6 +102,7 @@
     "invoices": "Factures",
     "language": "Language",
     "lastname": "Nom",
+    "loading": "Chargement",
     "launch": "Lancement",
     "login": "Connexion",
     "low": "Faible",
@@ -185,7 +186,7 @@
     "warning": "Avertissement",
     "website": "Site web"
   },
-  "validation": {
+  "validations": {
     "characters": " ne doit pas dépasser 8 caractères.",
     "duplicate": "Cet e-mail existe déjà",
     "duplicateTag": "Tag ne peut pas être dupliqué",
@@ -195,8 +196,9 @@
     "invalidUrl": "Format non valide, le format de l'URL devrait être https://www.exemple.com",
     "maxCharacters": "caractères max",
     "picture": {
-      "dimensions": "L'image est trop large, veuillez sélectionner un fichier de moins de",
-      "size": "L'image est trop grande, veuillez sélectionner un fichier de moins de"
+      "dimensions": "L'image est trop large, veuillez sélectionner un fichier de moins de {maxSize}",
+      "size": "L'image est trop grande, veuillez sélectionner un fichier de moins de",
+      "type": "Format non valide, le format de l'image devrait être *.jpg ou *.png."
     },
     "required": "est requis.",
     "size": "est trop grande, veuillez sélectionner un fichier de moins de",

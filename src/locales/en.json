@@ -103,6 +103,7 @@
     "language": "Language",
     "lastname": "Last Name",
     "launch": "Launch",
+    "loading": "Loading",
     "login": "Login",
     "low": "Low",
     "lowCriteria": "Low criteria",
@@ -185,7 +186,7 @@
     "warning": "Warning",
     "website": "Website"
   },
-  "validation": {
+  "validations": {
     "characters": " not be longer than 8 characters.",
     "duplicate": "This email already exists",
     "duplicateTag": "Tag can't be duplicated",
@@ -196,7 +197,8 @@
     "maxCharacters": "characters max",
     "picture": {
       "dimensions": "Picture is too large, please select a file less than",
-      "size": "Picture is too big, please select a file less than"
+      "size": "Picture is too big, please select a file less than {maxSize}.",
+      "type": "Invalid format, image format should be *.jpg or *.png."
     },
     "required": "is required.",
     "size": "is too big, please select a file less than",
@@ -269,7 +271,7 @@
     "form": {
       "avatar": {
         "cta": "Upload a picture",
-        "description": "*.png and *.jpg files of maximum 5MB. Recommended minimum size of 200x200px."
+        "description": "Files *.png and *.jpg files of maximum 5MB. Recommended minimum size of 200x200px."
       }
     },
     "heading": "Create your profile"

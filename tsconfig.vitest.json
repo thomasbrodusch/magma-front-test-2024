@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "lib": [],
+    "types": [
+      "node",
+      "jsdom",
+      "vitest/globals"
+    ]
+  },
+  "include": ["src/**/*.ts", "src/**/*.vue", "src/**/*.json", "tests/**/*"],
+  "exclude": ["node_modules"]
+}

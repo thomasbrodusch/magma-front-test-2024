@@ -1,6 +1,9 @@
+import type { Organization } from "@/types/Organization";
+import type { Ambassador } from "@/types/Ambassador";
+
 export interface SignUp {
-  organizationName: string | null;
-  website: string | null;
-  logoUrl: string | null;
-  ambassadors: any[];
+  organizationName: Organization["name"] | null;
+  website: Organization["website"] | null;
+  logoUrl: Organization["logoUrl"] | null;
+  ambassadors: Ambassador[];
 }
