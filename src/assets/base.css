@@ -43,8 +43,10 @@
 @layer components {
   .container {
     @apply pt-[56px] pb-10 px-32  flex flex-col gap-6 justify-center items-center h-full;
+    max-height: calc(100vh - 118px);
+
   }
   .content {
-    @apply pt-24 max-w-[600px] w-full flex flex-col gap-10;
+    @apply pt-24 max-w-[600px] w-full flex flex-col gap-10 h-full;
   }
 }

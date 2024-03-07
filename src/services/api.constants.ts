@@ -5,7 +5,10 @@ export interface SignupData {
 }
 
 export enum ApiErrorType {
-  MissingField = "MISSING_FIELDS"
+  MissingField = "MISSING_FIELDS",
+  ErrorCreateOrganization = "ERROR-TEST-SIGNUP-ORGANIZATION",
+  ErrorCreateAmbassador = "ERROR-TEST-CREATE-AMBASSADOR",
+  ErrorDeleteAmbassador = "ERROR-TEST-DELETE-AMBASSADOR"
 }
 
 export type ApiError = {

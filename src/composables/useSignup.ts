@@ -1,16 +1,18 @@
-import { computed, reactive, watch } from "vue";
+import { computed, reactive, ref, watch } from "vue";
 import { useSignupRouting } from "@/composables/useSignupRouting";
 import useApi from "@/composables/useApi";
 import useLoading from "@/composables/useLoading";
 import useOrganization from "@/composables/useOrganization";
 import type { Organization } from "@/types/Organization";
 import {
+  email,
   magmaLogoFileSizeValidation,
   magmaLogoFileTypeValidation,
   required,
   url
 } from "@/utils/i18n-validators";
 import { useVuelidate } from "@vuelidate/core";
+import type { Ambassador } from "@/types/Ambassador";
 
 const formOrganization = reactive({
   name: "",
@@ -18,10 +20,13 @@ const formOrganization = reactive({
   logoFile: undefined
 });
 
+const ambassadors = ref<Ambassador[]>([]);
+
 const { isLoading, setLoadingPending, setLoadingSuccess, setLoadingFailed } =
   useLoading();
 const { setIsAllowToGoToNextStep } = useSignupRouting();
-const { setCurrentOrganization } = useOrganization();
+const { currentOrganization, setCurrentOrganization } = useOrganization();
+
 const validation = useVuelidate(
   {
     name: { required, $lazy: true },
@@ -34,7 +39,7 @@ const validation = useVuelidate(
   formOrganization
 );
 
-export default function useSignupForm() {
+export function useSignupOrganization() {
   const { $api } = useApi();
 
   const logoPreviewURL = computed(() => {
@@ -77,5 +82,77 @@ export default function useSignupForm() {
     logoPreviewURL,
     validation,
     createOrganization
+  };
+}
+
+export function useSignupAmbassador() {
+  const { $api } = useApi();
+  const canAddAmbassador = ref(false);
+  setIsAllowToGoToNextStep(true);
+
+  const newAmbassador = reactive({
+    firstname: "",
+    lastname: "",
+    email: ""
+  });
+  watch(newAmbassador, () => {
+    const { firstname, lastname, email } = validation.value;
+    canAddAmbassador.value = [firstname, lastname, email].every(
+      (v) => !v.$invalid
+    );
+  });
+
+  const validation = useVuelidate(
+    {
+      firstname: { required },
+      lastname: { required },
+      email: { required, email }
+    },
+    newAmbassador
+  );
+
+  async function createAmbassador() {
+    setLoadingPending();
+    try {
+      const ambassador = await $api
+        .technicalTest()
+        .createAmbassador(currentOrganization.value!.id, newAmbassador);
+      if (ambassador) {
+        ambassadors.value.push(ambassador);
+        setLoadingSuccess();
+        return newAmbassador;
+      }
+    } catch (e) {
+      setLoadingFailed();
+    }
+  }
+
+  async function deleteAmbassador(ambassadorId: number) {
+    setLoadingPending();
+    try {
+      const ambassador = await $api
+        .technicalTest()
+        .deleteAmbassador(ambassadorId);
+      debugger;
+      if (ambassador) {
+        ambassadors.value = ambassadors.value.filter(
+          (a) => a.id !== ambassadorId
+        );
+      }
+      setLoadingSuccess();
+      return ambassador;
+    } catch (e) {
+      setLoadingFailed();
+    }
+  }
+
+  return {
+    isLoading,
+    newAmbassador,
+    ambassadors,
+    validation,
+    createAmbassador,
+    deleteAmbassador,
+    canAddAmbassador
   };
 }

@@ -1,7 +1,7 @@
 import SignupOrganizationView from "@/views/signup/SignupOrganizationView.vue";
 import ComponentWrapper from "../support/ComponentWrapper";
 import { describe, expect } from "vitest";
-import useSignupForm from "@/composables/useSignupForm";
+import { useSignupOrganization } from "@/composables/useSignup";
 
 class SignupOrganizationViewWrapper extends ComponentWrapper {
   fieldInputName() {
@@ -23,7 +23,7 @@ class SignupOrganizationViewWrapper extends ComponentWrapper {
 
 describe("SignupOrganizationView", () => {
   let wrapper: SignupOrganizationViewWrapper;
-  const { formOrganization, validation } = useSignupForm();
+  const { formOrganization, validation } = useSignupOrganization();
   const expectedNameValue = "Magma";
   const expectedWebsiteValue = "https://magma.com";
 

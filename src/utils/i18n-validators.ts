@@ -11,6 +11,7 @@ export const required = withI18nMessage(validators.required, {
 });
 
 export const url = withI18nMessage(validators.url);
+export const email = withI18nMessage(validators.email);
 
 export const magmaLogoFileTypeValidation = withI18nMessage(
   (file: File) => {

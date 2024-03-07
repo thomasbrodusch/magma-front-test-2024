@@ -3,19 +3,22 @@
 import SignupSidebar from "@/components/shell/SignupSidebar.vue";
 import SignupFooter from "@/components/shell/SignupFooter.vue";
 import { SignupStep, useSignupRouting } from "@/composables/useSignupRouting";
-import useSignupForm from "@/composables/useSignupForm";
+import { useSignupOrganization } from "@/composables/useSignup";
 
-const { currentStep, goToNextStep, isAllowToGoToNextStep } = useSignupRouting();
-const { createOrganization } = useSignupForm();
+const {
+  currentStep,
+  prevStep,
+  goToNextStep,
+  goToPrevStep,
+  isAllowToGoToNextStep
+} = useSignupRouting();
+const { createOrganization } = useSignupOrganization();
 
 async function handleGoToNextStepBtnClick() {
-  let callResult = undefined;
   if (currentStep.value.page === SignupStep.Organization) {
-    callResult = await createOrganization();
+    await createOrganization();
   }
-  if (callResult) {
-    goToNextStep();
-  }
+  goToNextStep();
 }
 </script>
 
@@ -25,8 +28,10 @@ async function handleGoToNextStepBtnClick() {
     <div class="signuplayout__main flex flex-col h-screen w-full">
       <router-view />
       <SignupFooter
+        :show-go-prev="!!prevStep"
         :is-allowed-to-go-next="isAllowToGoToNextStep"
         @on-go-next-btn-click="handleGoToNextStepBtnClick"
+        @on-go-prev-btn-click="goToPrevStep"
       />
     </div>
   </div>

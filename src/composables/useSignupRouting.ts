@@ -4,7 +4,8 @@ import { useRoute, useRouter } from "vue-router";
 
 export enum SignupStep {
   Organization = "signup-organization",
-  Ambassadors = "signup-ambassadors"
+  Ambassadors = "signup-ambassadors",
+  Success = "signup-success"
 }
 
 export enum SignupStepState {
@@ -28,6 +29,10 @@ export function useSignupRouting() {
     {
       name: "theSignupSidebar.navigation.itemFive",
       page: SignupStep.Ambassadors
+    },
+    {
+      name: "theSignupSidebar.navigation.itemSuccess",
+      page: SignupStep.Success
     }
   ];
   const currentStepIndex = computed(() =>
@@ -50,10 +55,19 @@ export function useSignupRouting() {
   const nextStep = computed(
     () => signupSteps.value[currentStepIndex.value + 1]
   );
+  const prevStep = computed(
+    () => signupSteps.value[currentStepIndex.value - 1]
+  );
 
   function goToNextStep() {
     if (isAllowToGoToNextStep.value) {
       router.push({ name: nextStep.value.page });
+    }
+  }
+
+  function goToPrevStep() {
+    if (currentStepIndex.value !== 0) {
+      router.push({ name: prevStep.value.page });
     }
   }
 
@@ -63,9 +77,11 @@ export function useSignupRouting() {
 
   return {
     currentStep,
+    prevStep,
     signupSteps,
     isAllowToGoToNextStep,
     setIsAllowToGoToNextStep,
-    goToNextStep
+    goToNextStep,
+    goToPrevStep
   };
 }

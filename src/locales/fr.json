@@ -254,6 +254,11 @@
         "title": "Réservez votre session d’accueil",
         "heading": "✅ Félicitations, votre plateforme vous attend",
         "description": "Il ne vous reste qu’à choisir un créneau pour votre session d’accueil sur Magma."
+      },
+      "itemSuccess": {
+        "heading": "✅ Félicitations, votre plateforme vous attend",
+        "title": "Organisation créée",
+        "description": "Il ne vous reste qu’à choisir un créneau pour votre session d’accueil sur Magma."
       }
     }
   },
@@ -340,6 +345,10 @@
     "cta": "Ajouter un ambassadeur",
     "description": "Nous vous recommandons d’ajouter 3 à 5 ambassadeurs dans un premier temps.",
     "heading": "Qui sont vos premiers ambassadeurs ?"
+  },
+  "signupSuccessView": {
+    "heading": "Félicitations!",
+    "description": "Vous venez de créer votre organisation: <strong>{name}</strong> avec {totalAmbassadors} ambassadeurs:"
   },
   "signupCriteriaView": {
     "advice": "Choisissez ici <b>le critère le plus important</b> pour vous. Vous pourrez toujours le modifier ou en ajouter des secondaires plus tard.",

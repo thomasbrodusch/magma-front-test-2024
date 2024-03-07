@@ -11,7 +11,7 @@ import SignupFooter from "@/components/shell/SignupFooter.vue";
 import useApi from "@/composables/useApi";
 import useOrganization from "@/composables/useOrganization";
 import { SignupStep } from "@/composables/useSignupRouting";
-import useSignupForm from "@/composables/useSignupForm";
+import { useSignupOrganization } from "@/composables/useSignup";
 
 class SignupLayoutWrapper extends ComponentWrapper {
   signupFooter() {
@@ -44,7 +44,7 @@ describe("SignupLayout", () => {
     it("should call $api.technicalTest().createOrganization on @on-go-next-btn-click", async () => {
       const { currentOrganization } = useOrganization();
       const { $api } = useApi();
-      const { formOrganization } = useSignupForm();
+      const { formOrganization } = useSignupOrganization();
       formOrganization.website = MOCK_CREATED_ORGANIZATION.website;
       formOrganization.name = MOCK_CREATED_ORGANIZATION.name;
 

@@ -4,10 +4,16 @@ import { BaseIcon } from "magma-design-system-test";
 
 // Composables
 import {
+  SignupStep,
   SignupStepState,
   useSignupRouting
 } from "@/composables/useSignupRouting";
+import { useRoute } from "vue-router";
+import { computed } from "vue";
 const { signupSteps } = useSignupRouting();
+const route = useRoute();
+
+const isOnSuccessScreen = computed(() => route.name === SignupStep.Success);
 </script>
 
 <template>
@@ -23,11 +29,23 @@ const { signupSteps } = useSignupRouting();
     />
 
     <h1 class="mb-2 text-mgm-txt-xl font-medium text-foreground-emphasis">
-      {{ $t(`${signupSteps.find((step) => step.status === "current")?.name}.heading`) }}
+      {{
+        $t(
+          `${
+            signupSteps.find((step) => step.status === "current")?.name
+          }.heading`
+        )
+      }}
     </h1>
 
     <p class="mb-6 text-mgm-txt-sm font-normal text-foreground-default">
-      {{ $t(`${signupSteps.find((step) => step.status === "current")?.name}.description`) }}
+      {{
+        $t(
+          `${
+            signupSteps.find((step) => step.status === "current")?.name
+          }.description`
+        )
+      }}
     </p>
 
     <ol class="hide-nav pb-40">
@@ -37,7 +55,7 @@ const { signupSteps } = useSignupRouting();
       >
         <component
           :is="
-            signupStep.status === SignupStepState.Complete
+            signupStep.status === SignupStepState.Complete || isOnSuccessScreen
               ? 'router-link'
               : 'div'
           "
@@ -46,9 +64,11 @@ const { signupSteps } = useSignupRouting();
             'mb-4 flex items-center text-mgm-txt-sm ',
             {
               'font-normal text-foreground-success-default':
-                signupStep.status === SignupStepState.Complete,
+                signupStep.status === SignupStepState.Complete ||
+                isOnSuccessScreen,
               'font-medium text-foreground-brand-default':
-                signupStep.status === SignupStepState.Current,
+                signupStep.status === SignupStepState.Current &&
+                !isOnSuccessScreen,
               'font-normal text-foreground-default':
                 signupStep.status === SignupStepState.Upcoming
             }
@@ -62,18 +82,28 @@ const { signupSteps } = useSignupRouting();
                 'border-border-default':
                   signupStep.status === SignupStepState.Upcoming,
                 'border-border-brand-emphasis':
-                  signupStep.status === SignupStepState.Current,
+                  signupStep.status === SignupStepState.Current &&
+                  !isOnSuccessScreen,
                 'border-border-success-emphasis bg-foreground-success-default':
-                  signupStep.status === SignupStepState.Complete
+                  signupStep.status === SignupStepState.Complete ||
+                  isOnSuccessScreen
               }
             ]"
           >
-            <span v-if="signupStep.status === SignupStepState.Current">
+            <span
+              v-if="
+                signupStep.status === SignupStepState.Current &&
+                !isOnSuccessScreen
+              "
+            >
               {{ signupStepIndex + 1 }}
             </span>
 
             <BaseIcon
-              v-else-if="signupStep.status === SignupStepState.Complete"
+              v-else-if="
+                signupStep.status === SignupStepState.Complete ||
+                isOnSuccessScreen
+              "
               icon="check"
               color="#FFFFFF"
             />

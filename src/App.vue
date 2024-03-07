@@ -7,6 +7,7 @@ import { AxiosError } from "axios";
 // Components
 import ErrorView from "@/views/ErrorView.vue";
 
+import useModal from "@/composables/useModal";
 // Plugins
 const route = useRoute();
 
@@ -14,6 +15,8 @@ const route = useRoute();
 const error = ref<Error | AxiosError | null>(null);
 const errorCode = ref<number | null>(null);
 const initialized = ref(false);
+
+const { activeModalComponent } = useModal();
 
 // Lifecycle hooks
 onBeforeMount(async () => {
@@ -34,8 +37,9 @@ onErrorCaptured((e: AxiosError) => {
 
 <template>
   <template v-if="initialized">
-    <ErrorView v-if="error" :error-code="errorCode" />
+    <component class="app-active-modal" :is="activeModalComponent" />
 
+    <ErrorView v-if="error" :error-code="errorCode" />
     <template v-else>
       <RouterView
         :class="[

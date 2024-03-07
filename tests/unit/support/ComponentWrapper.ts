@@ -1,6 +1,7 @@
 import { mount, VueWrapper } from "@vue/test-utils";
 import type { Stubs } from "@vue/test-utils/dist/types";
 import type { App, ComponentPublicInstance, Directive, Plugin } from "vue";
+import { createPinia } from "pinia";
 
 const $t = (tKey: string, args?: Record<string, string | number>) =>
   args ? `${tKey}_${JSON.stringify(args)}` : tKey;
@@ -54,7 +55,7 @@ export default class ComponentWrapper {
     this.impl = mount(component, {
       shallow,
       global: {
-        plugins: [translateMock, i18nMock].concat(plugins),
+        plugins: [translateMock, i18nMock, createPinia()].concat(plugins),
         components,
         stubs,
         mocks,

@@ -2,13 +2,14 @@
 <script setup lang="ts">
 // Components
 import { FieldAvatarUploader, FieldInput } from "magma-design-system-test";
-import useSignupForm from "@/composables/useSignupForm";
+import { useSignupOrganization } from "@/composables/useSignup";
 import SignupIllustration from "@/components/SignupIllustration.vue";
 
 const ORGANIZATION_NAME_PLACEHOLDER = "Acme inc.";
 const ORGANIZATION_WEBSITE_PLACEHOLDER = "https://acme.com";
 
-const { formOrganization, logoPreviewURL, validation } = useSignupForm();
+const { formOrganization, logoPreviewURL, validation } =
+  useSignupOrganization();
 function handleOrganizationNameBlur(name: string) {
   formOrganization.name = name;
   validation.value.name.$touch();
@@ -19,7 +20,7 @@ function handleOrganizationNameBlur(name: string) {
   <div class="signup-organization-view container">
     <div class="content">
       <div class="signup-organization-view__main flex flex-col gap-6">
-        <h1 class="text-mgm-txt-xl">
+        <h1 class="text-mgm-txt-xl font-medium">
           {{ $t("signupOrganizationView.heading") }}
         </h1>
         <FieldInput
@@ -53,7 +54,7 @@ function handleOrganizationNameBlur(name: string) {
       </div>
       <SignupIllustration
         magma-test-id="svg-illustration"
-        class="signup-organization-view__illustration"
+        class="signup-organization-view__illustration max-w-[600px]"
         :logo-preview-url="logoPreviewURL"
         :organization-name="
           formOrganization.name || ORGANIZATION_NAME_PLACEHOLDER

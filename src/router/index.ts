@@ -2,6 +2,8 @@
 import { createRouter, createWebHistory } from "vue-router";
 import { HttpError } from "@/types/Errors";
 import { SignupStep } from "@/composables/useSignupRouting";
+import useOrganization from "@/composables/useOrganization";
+import SignupGuard from "@/router/guards/SignupGuard";
 
 // Views
 const ErrorView = () => import("@/views/ErrorView.vue");
@@ -13,8 +15,7 @@ const SignupOrganizationView = () =>
 const SignupAmbassadorsView = () =>
   import("@/views/signup/SignupAmbassadorsView.vue");
 
-// Campaigns
-const CampaignsLayout = () => import("@/views/campaigns/CampaignsLayout.vue");
+const SignupSuccessView = () => import("@/views/signup/SignupSuccessView.vue");
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -39,14 +40,16 @@ const router = createRouter({
         {
           path: "ambassadors",
           name: SignupStep.Ambassadors,
-          component: SignupAmbassadorsView
+          component: SignupAmbassadorsView,
+          beforeEnter: SignupGuard
+        },
+        {
+          path: "created-with-success",
+          name: SignupStep.Success,
+          component: SignupSuccessView,
+          beforeEnter: SignupGuard
         }
       ]
-    },
-    {
-      path: "/campaigns",
-      name: "campaigns",
-      component: CampaignsLayout
     },
     {
       path: "/:pathMatch(.*)*",

@@ -254,6 +254,11 @@
         "title": "Plan your welcome session",
         "heading": "✅ Congratulations, your platform awaits you",
         "description": "All you have to do is choose a time slot for your welcome session on Magma.."
+      },
+      "itemSuccess": {
+        "title": "Organization created",
+        "heading": "✅ Congratulations, your platform awaits you",
+        "description": "All you have to do is choose a time slot for your welcome session on Magma.."
       }
     }
   },
@@ -340,6 +345,10 @@
     "cta": "Add an ambassador",
     "description": "We recommend adding 3 to 5 ambassadors initially.",
     "heading": "Who are your first ambassadors?"
+  },
+  "signupSuccessView": {
+    "heading": "Congratulations!",
+    "description": "You've created your organization: <strong>{name}</strong> with {totalAmbassadors} ambassadors:"
   },
   "signupCriteriaView": {
     "advice": "Choose <b>the most important criteria</b> for you here. You can always modify it or add secondary ones later.",
